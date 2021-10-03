@@ -56,20 +56,21 @@ export function currencyEquals(currencyA: Currency, currencyB: Currency): boolea
   }
 }
 
+// didnt set correct movr address for other chains
 export const WETH = {
   [ChainId.MAINNET]: new Token(
     ChainId.MAINNET,
-    '0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83',
+    '0x98878B06940aE243284CA214f92Bb71a2b032B8A',
     18,
-    'WFTM',
-    'Wrapped FTM'
+    'WMOVR',
+    'Wrapped MOVR'
   ),
   [ChainId.FTMTESTNET]: new Token(
     ChainId.FTMTESTNET,
     '0xf1277d1Ed8AD466beddF92ef448A132661956621',
     18,
-    'WFTM',
-    'Wrapped FTM'
+    'WMOVR',
+    'Wrapped MOVR'
   ),
   [ChainId.BSC]: new Token(
     ChainId.MAINNET,

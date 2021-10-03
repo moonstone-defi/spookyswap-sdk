@@ -1,8 +1,8 @@
 {
-  "name": "spookyswap-sdk",
+  "name": "moonstone-sdk",
   "license": "MIT",
-  "version": "1.0.0",
-  "description": "🛠 An SDK for building applications on top of spookyswap.",
+  "version": "0.0.1",
+  "description": "🛠 An SDK for building applications on top of moonstone.games.",
   "main": "dist/index.js",
   "module": "dist/sdk.esm.js",
   "typings": "dist/index.d.ts",
@@ -10,10 +10,11 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/SpookySwap/SpookySwap-sdk.git",
+  "repository": "https://github.com/moonstone/SpookySwap-sdk.git",
   "keywords": [
-    "spookyswap",
+    "moonstone",
     "ethereum",
+    "moonriver",
     "fantom"
   ],
   "scripts": {
